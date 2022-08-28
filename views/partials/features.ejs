@@ -1,0 +1,27 @@
+<!----------------------MESSAGE POP-UP AND TOP-TO-DOWN BOTTON ------------>
+<div class="messagePopUp">
+    <div class="form-popup mt-5" id="myForm">
+      <form action="/message" class="form-container">
+        <label for="email"><b>Name</b></label>
+        <input type="text" placeholder="Name" name="email" required>
+    
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Email" name="email" required>
+    
+        <button type="submit" class="btn">Login</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+      </form>
+    </div>
+    </form>
+  </div>
+
+  <!-- BUTTON HANDLING -->
+  <button onclick="openForm()" id="message">
+    <i class="bi fs-1 message text-white bi-chat-dots-fill"></i
+  >
+</button>
+<button id="back-to-top-btn">
+  <i class="bi fs-2 text-danger bi-arrow-up-circle-fill"></i>
+</button>
+
+<!----------------------MESSAGE POP-UP AND TOP-TO-DOWN BOTTON END-------- -->
