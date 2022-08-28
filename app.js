@@ -6,7 +6,9 @@ app.use(express.static(join(__dirname, "public")));
 app.use(express.static(__dirname + "/public"));
 app.use(express.static("public"));
 
-const router = require("./routes/homeRoutes");
+// const router = require("./routes/homeRoutes");
+const router = require("./routes/routes");
+
 app.use(express.json());
 app.use("/", router);
 

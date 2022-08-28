@@ -1,13 +1,13 @@
 let dateInput1 = document.getElementById("datePicker1");
 let dateInput2 = document.getElementById("datePicker2");
 
-// dateInput1.addEventListener("click", () => {
-//   document.getElementById("datePicker1").type = "date";
-// });
+dateInput1.addEventListener("click", () => {
+  document.getElementById("datePicker1").type = "date";
+});
 
-// dateInput2.addEventListener("click", () => {
-//   document.getElementById("datePicker2").type = "date";
-// });
+dateInput2.addEventListener("click", () => {
+  document.getElementById("datePicker2").type = "date";
+});
 
 const siteHeader = document.getElementById("stickyMessages");
 const siteNav = document.getElementById("stickyMessage");
