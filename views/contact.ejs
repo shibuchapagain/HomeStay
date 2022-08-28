@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/head') %>
+  <body>
+    <%- include('./partials/nav') %>
+
+    <!-- YOUR CONTENT WHAT YOU WANT TO RENDERING -->
+    <!-- ECO-CONTACT FORM -->
+    <div class="container-fluid">
+      <div
+        class="row justify-content-evenly pt-2 pb-5"
+        style="background-color: #f1f1f1"
+      >
+        <div class="col-md-5 mt-5">
+          <h3 class="mb-4">Contact Form</h3>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="name" />
+            </div>
+
+            <div class="mb-3">
+              <label for="name" class="form-label">Contact Number:</label>
+              <input type="number" class="form-control" id="contact" />
+            </div>
+
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text">
+                We'll never share your email with anyone else.
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-success">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-5 mt-5">
+          <h3 class="mb-4">Address</h3>
+          <p>
+            Office: <br />
+            Sanepa, Lalitpur, <br />
+            Kathmandu, Nepal <br />
+            <i class="bi fs-5 bi-telephone-fill text-success"></i> : 9862247321
+            <br />
+            Mail: <br />
+            info@ecohomestaynepal.com
+          </p>
+
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3120.236548525571!2d85.30605070403865!3d27.685805721519678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb184912a56fef%3A0x5980611bc24818a9!2z4KS44KS-4KSo4KWH4KSq4KS-IOCkmuCli-CklSwg4KSy4KSy4KS_4KSk4KSq4KWB4KSwIDQ0NjAw!5e0!3m2!1sne!2snp!4v1661319896671!5m2!1sne!2snp"
+            width="400"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <!-- ECO-CONTACT FORM END -->
+    <!-- YOUR CONTENT WHAT YOU WANT TO RENDERING -->
+
+    <%- include('./partials/footer') %> <%- include('./partials/features') %>
+  </body>
+</html>

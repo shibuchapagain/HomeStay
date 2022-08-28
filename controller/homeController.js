@@ -1,16 +1,19 @@
 const homestay = require("./../mongoose");
 
-const getAllData = async (req, res) => {
-  let data = await homestay.find({ _id: "63074988fa0af487478dc2e5" });
-  // console.log(data);
-  let info = [
-    {
-      name: "shiva chapagain",
-      address: "KTM",
-    },
-  ];
-  info = info[0];
-  res.render("index", { info });
+const error = (req, res) => {
+  res.render("error");
 };
 
-module.exports = { getAllData };
+const index = (req, res) => {
+  res.render("index");
+};
+
+const familyHotel = (req, res) => {
+  res.render("./homestay/family-hotel.ejs");
+};
+
+const communityHomestay = (req, res) => {
+  res.render("./homestay/community-homestay.ejs");
+};
+
+module.exports = { error, index, familyHotel, communityHomestay };

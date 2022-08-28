@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "lint:ejs": "ejslint src/templates/some-template.ejs",
     "start": "nodemon app"
   },
   "keywords": [],
