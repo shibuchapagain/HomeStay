@@ -13,7 +13,7 @@ const ecoPartnerCoop = (req, res) => {
 };
 
 const ecoPartnerNursery = (req, res) => {
-  res.render("./ourPaartners/eco-partner-nursery.ejs");
+  res.render("./ourPartners/eco-partner-nursery.ejs");
 };
 
 const ecoPartnerTrainingCenter = (req, res) => {

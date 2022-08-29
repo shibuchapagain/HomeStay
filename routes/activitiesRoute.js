@@ -2,7 +2,9 @@ const express = require("express");
 const activitiesController = require("./../controller/activitiesController");
 const router = express.Router();
 
-router.route("/activities/exposure").get(activitiesController.exposureVisit);
+router
+  .route("/activities/exposure-visit")
+  .get(activitiesController.exposureVisit);
 
 router.route("/activities/adventure").get(activitiesController.adventure);
 

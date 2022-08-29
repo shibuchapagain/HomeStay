@@ -14,7 +14,7 @@ router
 
 router
   .route("/our-partners/eco-partner-nursery")
-  .get(ourPartnersController.ecoPartnerCoop);
+  .get(ourPartnersController.ecoPartnerNursery);
 
 router
   .route("/our-partners/eco-partner-training-center")
